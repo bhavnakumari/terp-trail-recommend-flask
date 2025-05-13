@@ -1,6 +1,6 @@
 # My Flask App
 
-This is a minimal Flask application that demonstrates a basic "Hello, World!" route.
+Integration with External Services Google Gemini API: We built functionality in our posting creation service that sends posting descriptions to the Google Gemini API. The API converts these into a set of screening questions which are then used to dynamically gather volunteer responses and compute a score. Flask-Based Recommendation Engine: Our recommendation system, built in Flask, processes past application data and volunteer profiles. This service provides insights and personalized suggestions to research firms, enhancing candidate matching and streamlining the recruitment process.
 
 ## Project Structure
 
